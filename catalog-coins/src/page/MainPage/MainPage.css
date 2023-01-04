@@ -1,0 +1,134 @@
+.main-page__title {
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 59px;
+  margin: 0;
+}
+
+.main-page_navi {
+  display: flex;
+}
+
+.main-page_navi p {
+  color: #b1abab;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.main-page_navi-Link {
+  color: #b1abab;
+  text-decoration: none;
+}
+.main-page_navi-Link p {
+  text-decoration-line: underline;
+}
+
+.main-page__form-container {
+  margin-top: 25px;
+}
+
+.main-page__Coins-filter-button {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  border: 0;
+  cursor: pointer;
+  color: #8b8b8b;
+  background: white;
+}
+
+.main-page__Coins-filter-span {
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
+.main-page__Coins-filter-button:hover {
+  color: #625a5a;
+  cursor: pointer;
+}
+
+.main-page__Coins-filter-button span {
+  transform: rotate(-180deg);
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.main-page__advanced-filter-none {
+  display: none;
+}
+
+.main-page__advanced-filter {
+  margin-top: 25px;
+  display: flex;
+}
+
+.main-page__advanced-filter-title {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.main-page__advanced-filter-select {
+  width: 374px;
+  padding: 15px;
+  font-size: 24px;
+  border: 1px solid #000000;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.main-page__advanced-filter-form-block {
+  display: flex;
+}
+
+.main-page__advanced-filter-form-input {
+  width: 155px;
+  padding: 15px;
+  font-size: 24px;
+  border: 1px solid #000000;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 819px) {
+  .main-page__form-container {
+    margin-top: 0px;
+  }
+  .main-page__title {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    margin: 0;
+  }
+  .main-page__advanced-filter {
+    margin-top: 0;
+     display: block;
+}
+  .main-page__advanced-filter-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.main-page__advanced-filter-select {
+  width: 366px;
+  padding: 10px;
+  font-size: 15px;
+  margin-right: 0;
+  
+}
+
+.main-page__advanced-filter-form-block {
+  text-align: center;
+  display: block;
+}
+
+.main-page__advanced-filter-form-input-block:last-child {
+  margin-left: 20px;
+}
+}

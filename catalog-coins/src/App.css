@@ -1,0 +1,25 @@
+.App {
+  /* text-align: center; */
+  margin: 0 auto;
+  width: 1280px;
+  /* background: #61dafb; */
+  padding: 52px;
+}
+
+@media screen and (max-width: 1279px) {
+  .App {
+    width: 806px;
+    padding: 5px;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 819px) {
+
+  .App {
+    width: 390px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+}
+

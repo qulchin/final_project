@@ -1,0 +1,40 @@
+.list-coins {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  
+   /* width: 100%;
+   display: grid;
+   justify-items: center;
+   box-sizing: border-box;
+   margin-top: 40px; */
+}
+
+.coin {
+  /* display: grid;
+  grid-template-columns: 2 1fr;
+  column-gap: 20px;
+  row-gap:  20px; */
+  display: flex;
+  margin-right: 150px;
+  margin-bottom: 25px;
+  
+}
+
+/* .coin:nth-child(even) {
+  display: flex;
+  margin-right: 150px;
+  margin-bottom: 25px;
+  
+} */
+
+/* .coin:nth-child(odd)  {
+  display: flex;
+  margin-right: 150px;
+  margin-bottom: 25px;
+  
+} */
+
+.coin:last-child {
+  margin-right: 0;
+}
